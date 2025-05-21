@@ -12,6 +12,7 @@ export function ResponsibleGamblingFooter() {
               Providing expert reviews and rankings of the best betting sites in Ireland. All information is regularly
               updated to ensure accuracy.
             </p>
+            <strong className="text-red-400 font-bold">18+ ONLY.</strong>
           </div>
 
           <div>
@@ -85,7 +86,7 @@ export function ResponsibleGamblingFooter() {
               <Link href="https://gamblingcare.ie/">
                 <div className="relative w-[120px] h-[40px]">
                   <Image
-                    src="/gambling-care-logo.png"
+                    src="/GamblingCare-w.png"
                     alt="Gambling Care"
                     width={120}
                     height={40}
@@ -112,7 +113,7 @@ export function ResponsibleGamblingFooter() {
             <div className="bg-indigo-900/50 p-3 rounded-lg transition-transform duration-300 hover:scale-105 flex flex-col items-center">
               <Link href="https://www.gamcare.org.uk/">
                 <div className="relative w-[120px] h-[40px]">
-                  <Image src="/gamcare-logo.png" alt="GamCare" width={120} height={40} className="mb-2 mt-4" />
+                  <Image src="/gamcare.png" alt="GamCare" width={120} height={40} className="mb-2 mt-4" />
                 </div>
               </Link>
               <span className="text-xs text-center text-gray-300">Safe Gambling</span>

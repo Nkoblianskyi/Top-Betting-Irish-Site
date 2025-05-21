@@ -3,8 +3,6 @@ import { bettingSites } from "@/lib/data"
 import { BettingSiteCard } from "@/components/betting-site-card"
 import { TopOffersModal } from "@/components/top-offers-modal"
 import { CookieBanner } from "@/components/cookie-banner"
-import { ResponsibleGamblingFooter } from "@/components/responsible-gambling-footer"
-import { Star } from "lucide-react"
 import { LicensingSafetyOverview } from "@/components/licensing-safety-overview"
 import { AdvertiserInfoModal } from "@/components/advertiser-info-modal"
 import { AgeRestrictionModal } from "@/components/age-restriction-modal"
@@ -14,31 +12,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-gray-900 text-white py-2 md:py-4">
-        <div className="container mx-auto px-3 md:px-4 flex flex-col md:flex-row justify-between items-center">
-          <div className="flex items-center mb-2 md:mb-0">
-            <Star className="h-6 w-6 md:h-8 md:w-8 text-yellow-400 mr-2" />
-            <h1 className="text-lg md:text-xl font-bold text-white">Top Betting Irish Site</h1>
-          </div>
-          <nav className="flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm">
-            <Link href="/" className="text-white hover:text-yellow-400 transition-colors">
-              Home
-            </Link>
-            <Link href="/about" className="text-white hover:text-yellow-400 transition-colors">
-              About Us
-            </Link>
-            <Link href="/terms" className="text-white hover:text-yellow-400 transition-colors">
-              Terms
-            </Link>
-            <Link href="/privacy" className="text-white hover:text-yellow-400 transition-colors">
-              Privacy
-            </Link>
-            <Link href="/cookies" className="text-white hover:text-yellow-400 transition-colors">
-              Cookies
-            </Link>
-          </nav>
-        </div>
-      </header>
+      
 
       {/* Hero Section - Ultra Compact for Mobile */}
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-3 md:py-6 overflow-hidden">
@@ -174,8 +148,7 @@ export default function Home() {
       {/* FAQ Section */}
       <FaqSection />
 
-      {/* Responsible Gambling Footer */}
-      <ResponsibleGamblingFooter />
+
 
       {/* Cookie Banner */}
       <CookieBanner />
